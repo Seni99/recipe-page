@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf'); /* Fíjate en el ../ */
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf'); /* Fíjate en el ../ */
+}
+body {
+    background-color: rgb(240, 231, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family:'Outfit', sans-serif;
+    
+}
+
+
+h1 {
+    color: #121110;
+    font-size: 50px;
+    font-family:'YoungSerif',serif;
+}
+
+h2 {
+    color: #854632; 
+    font-size: 32px;
+    font-family: 'YoungSerif', serif;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+
+h3 {
+    color: #712a6c;
+    font-family:'Outfit', sans-serif;
+}
+
+
+p {
+color: #121110;
+font-family:'Outfit', sans-serif;;
+}
+
+
+.recipe-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.prep-time {
+    background-color: #f6e6f5;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: normal;
+    min-height: 20vh;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+.attribution {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+.nutrition-table th,
+.nutrition-table td {
+    border: none;
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0; 
+}
+
+
+.nutrition-table tr:last-child td,
+.nutrition-table tr:last-child th {
+    border-bottom: none;
+}
+
+
+.nutrition-table td {
+    color: #854632;
+    font-weight: bold;
+}
+
+
+ul li::marker {
+    color: #854632;
+}
+
+
+ol li::marker {
+    color: #854632;
+    font-weight: bold;
+}
+
+
+li {
+    padding-left: 16px;
+    margin-bottom: 12px;
+}
+hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 48px 16px;
+    }
+
+    .recipe-card {
+        background-color: rgb(246, 246, 243);
+        max-width: 700px;
+        border-radius: 20px;
+        padding: 48px;
+    }
+}
