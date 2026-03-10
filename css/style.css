@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-    color: #854632; 
+    color:  hsl(14, 45%, 36%);
     font-size: 32px;
     font-family: 'YoungSerif', serif;
     margin-top: 32px;
@@ -54,7 +54,7 @@ h2 {
 
 
 h3 {
-    color: #712a6c;
+    color: hsl(332, 51%, 32%);
     font-family:'Outfit', sans-serif;
 }
 
@@ -71,7 +71,7 @@ font-family:'Outfit', sans-serif;;
 }
 
 .prep-time {
-    background-color: #f6e6f5;
+    background-color:  hsl(330, 100%, 98%);
     max-width: 600px;
     border-radius: 20px;
     padding: 15px;
