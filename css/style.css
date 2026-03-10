@@ -1,12 +1,30 @@
+:root {
+  --color-stone-900: hsl(24, 5%, 18%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-brown-800: hsl(14, 45%, 36%);
+  --color-rose-800: hsl(332, 51%, 32%);
+  --color-rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 @font-face {
-    font-family: 'Outfit';
-    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf'); /* Fíjate en el ../ */
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
 }
 
 @font-face {
     font-family: 'YoungSerif';
     src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf'); /* Fíjate en el ../ */
+    font-weight: 100 900;
 }
 body {
     background-color: rgb(240, 231, 220);
@@ -59,7 +77,6 @@ font-family:'Outfit', sans-serif;;
     padding: 15px;
     display: flex;
     align-items: normal;
-    min-height: 20vh;
     flex-direction: column;
     margin-bottom: auto;
 }
@@ -126,7 +143,7 @@ hr {
 
 @media (min-width: 768px) {
 
-    .container {
+    .body {
         display: flex;
         justify-content: center;
         padding: 48px 16px;
